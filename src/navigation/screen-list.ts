@@ -7,4 +7,5 @@ export type ScreenListItemT = {
 
 export const SCREEN_LIST: ScreenListItemT[] = [
   { title: "📱 Contact List", destination: Routes.ContactList },
+  { title: "⚙️ Adjustment Wheel", destination: Routes.AdjustmentWheel },
 ];

@@ -18,6 +18,11 @@ export const RootNavigator = () => {
         component={require("@screens/contact-list-screen").default}
         options={{ gestureEnabled: false }}
       />
+      <Stack.Screen
+        name={Routes.AdjustmentWheel}
+        component={require("@screens/adjustment-wheel-screen").default}
+        options={{ gestureEnabled: false }}
+      />
     </Stack.Navigator>
   );
 };

@@ -11,6 +11,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		223C91DC2982CC80009B0614 /* Monda-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223C91DB2982CB7E009B0614 /* Monda-Regular.ttf */; };
 		22E1C59A29781D6C003A7AED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E1C59929781D6B003A7AED /* LaunchScreen.storyboard */; };
 		6172F2D35A4C3AA820D92908 /* libPods-rnui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6423831EA8574132BED9D8CC /* libPods-rnui.a */; };
 		7EF68E3733C33B6898317E18 /* libPods-rnui-rnuiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFE59519B596E51CEFDCCC0 /* libPods-rnui-rnuiTests.a */; };
@@ -37,6 +38,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rnui/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rnui/main.m; sourceTree = "<group>"; };
 		1D0AE47A65C8663E3B452821 /* Pods-rnui-rnuiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnui-rnuiTests.release.xcconfig"; path = "Target Support Files/Pods-rnui-rnuiTests/Pods-rnui-rnuiTests.release.xcconfig"; sourceTree = "<group>"; };
+		223C91DB2982CB7E009B0614 /* Monda-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Monda-Regular.ttf"; path = "../../src/assets/fonts/Monda-Regular.ttf"; sourceTree = "<group>"; };
 		22E1C59929781D6B003A7AED /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22E6C10D2975A9B90083EAF1 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
 		6423831EA8574132BED9D8CC /* libPods-rnui.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnui.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +102,7 @@
 		22E6C10C2975A94C0083EAF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				223C91DB2982CB7E009B0614 /* Monda-Regular.ttf */,
 				22E6C10D2975A9B90083EAF1 /* Ionicons.ttf */,
 			);
 			path = Resources;
@@ -252,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223C91DC2982CC80009B0614 /* Monda-Regular.ttf in Resources */,
 				22E1C59A29781D6C003A7AED /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
