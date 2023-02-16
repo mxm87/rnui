@@ -12,7 +12,7 @@ import { StatusBar } from "react-native";
 const App = () => {
   const onReportPrepared = useCallback((report: RenderPassReport) => {
     // uncomment to enable perfomance logs
-    // printRenderReportConsole(report);
+    printRenderReportConsole(report);
   }, []);
 
   return (

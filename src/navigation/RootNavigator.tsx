@@ -1,4 +1,5 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { gestureHandlerRootHOC } from "react-native-gesture-handler";
 import Routes from "./routes";
 
 const Stack = createNativeStackNavigator();
@@ -21,6 +22,13 @@ export const RootNavigator = () => {
       <Stack.Screen
         name={Routes.AdjustmentWheel}
         component={require("@screens/adjustment-wheel-screen").default}
+        options={{ gestureEnabled: false }}
+      />
+      <Stack.Screen
+        name={Routes.AppleWallet}
+        component={gestureHandlerRootHOC(
+          require("@screens/apple-wallet-screen").default,
+        )}
         options={{ gestureEnabled: false }}
       />
     </Stack.Navigator>
